@@ -7,7 +7,7 @@ function Home() {
       // Create a link element to trigger download
       const link = document.createElement('a');
       // Use the correct filename that exists in public folder
-      link.href = `${import.meta.env.BASE_URL}Gowtham.Resume(full stack).pdf`;
+      link.href = `${import.meta.env.BASE_URL}Gowtham_Resume.pdf`;
       link.download = 'Gowtham_Resume.pdf';
       link.target = '_blank';
       document.body.appendChild(link);
@@ -22,7 +22,7 @@ function Home() {
   const handleViewResume = () => {
     try {
       // Open resume in a new tab - use the correct filename
-      const resumeUrl = `${import.meta.env.BASE_URL}Gowtham.Resume(full stack).pdf`;
+      const resumeUrl = `${import.meta.env.BASE_URL}Gowtham_Resume.pdf`;
       const newWindow = window.open(resumeUrl, '_blank');
       
       // Check if the window opened successfully
@@ -39,21 +39,21 @@ function Home() {
     <>
       <section className="hero">
         <div>
-          <div className="hero-badge">🚀 Aspiring Software Developer</div>
+          <div className="hero-badge">🚀 Full Stack Developer (MERN)</div>
           <h1>
             Hi, I'm Gowtham 👋
           </h1>
           <p>
-            A passionate Software Developer with strong skills in Java, JavaScript, and SQL, currently training in the MERN stack (MongoDB, Express.js, React, Node.js). I'm passionate about building clean, efficient, and user-friendly applications that solve real-world problems. My focus is on backend development, scalable logic, and integrating real-time data using REST APIs.
+            Full Stack Developer with 7+ months of professional experience building production-ready applications using the MERN stack (MongoDB, Express.js, React, Node.js). I've delivered a live client project end-to-end — from architecture to deployment — and I specialize in backend development, REST API design, and scalable application logic. Currently open to full-time roles and freelance projects.
           </p>
           <div className="hero-highlights">
             <div className="highlight-item">
-              <span className="highlight-number">4+</span>
-              <span className="highlight-text">Years Education</span>
+              <span className="highlight-number">7+</span>
+              <span className="highlight-text">Months Experience</span>
             </div>
             <div className="highlight-item">
-              <span className="highlight-number">3+</span>
-              <span className="highlight-text">Projects Completed</span>
+              <span className="highlight-number">1</span>
+              <span className="highlight-text">Live Client Project</span>
             </div>
             <div className="highlight-item">
               <span className="highlight-number">10+</span>

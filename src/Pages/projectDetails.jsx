@@ -46,20 +46,30 @@ function ProjectDetails() {
         <div className="card">
           <h3>Project Details</h3>
           <div className="project-meta">
-            <p><strong>Duration:</strong> {project.duration}</p>
-            <p><strong>Role:</strong> {project.role}</p>
+            {project.duration && <p><strong>Duration:</strong> {project.duration}</p>}
+            {project.role && <p><strong>Role:</strong> {project.role}</p>}
           </div>
         </div>
         
-        <div className="card">
-          <h3>Challenges & Solutions</h3>
-          <div className="challenges-section">
-            <h4>Challenges:</h4>
-            <p>{project.challenges}</p>
-            <h4>Solutions:</h4>
-            <p>{project.solutions}</p>
+        {(project.challenges || project.solutions) && (
+          <div className="card">
+            <h3>Challenges & Solutions</h3>
+            <div className="challenges-section">
+              {project.challenges && (
+                <>
+                  <h4>Challenges:</h4>
+                  <p>{project.challenges}</p>
+                </>
+              )}
+              {project.solutions && (
+                <>
+                  <h4>Solutions:</h4>
+                  <p>{project.solutions}</p>
+                </>
+              )}
+            </div>
           </div>
-        </div>
+        )}
         
         <div className="card">
           <h3>Links</h3>

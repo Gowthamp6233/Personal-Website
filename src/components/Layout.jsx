@@ -25,7 +25,7 @@ const Layout = () => {
         <div className="container footer-grid">
           <div>
             <h4>Address</h4>
-            <p>Dindigul, Tamil Nadu</p>
+            <p>Bengaluru, Karnataka</p>
           </div>
           <div>
             <h4>Contact</h4>

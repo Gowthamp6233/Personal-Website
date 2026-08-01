@@ -1,5 +1,22 @@
 export const projects = [
   {
+    id: 4,
+    title: "Chithara Mahal — Wedding Hall Marketing Website",
+    description: "Designed and built a full production marketing website for a wedding hall business in Dindigul. Built with React, Vite, and Tailwind CSS on the frontend and Express.js with MongoDB on the backend. Implemented scroll-triggered animations and a streamlined lead-capture form to convert visitors into inquiries.",
+    techStack: ["React", "Vite", "Tailwind CSS", "Express.js", "MongoDB"],
+    role: "Full-Stack Developer | Freelance Client Project",
+    placeholder: "💍",
+    repoUrl: "https://github.com/Gowthamp6233/sithara-mahal/tree/main"
+  },
+  {
+    id: 5,
+    title: "DMS Hospital — Website Redesign (Concept)",
+    description: "Built a modern, clean hospital website demo modeled after industry-leading healthcare sites, as a direct pitch to a prospective client in Batlagundu. Focused on a professional white-and-blue design system suited for a healthcare audience.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    role: "Freelance Outreach Project",
+    placeholder: "🏥"
+  },
+  {
     id: 1,
     title: "To-Do List Application",
     description: "Built a desktop To-Do List app using Java and JavaFX. Integrated PostgreSQL database for persistent task storage. Features include task reminders, sorting, drag-and-drop, and enhanced UI/UX.",
@@ -34,6 +51,31 @@ export const projects = [
 ];
 
 export const projectDetails = {
+  4: {
+    title: "Chithara Mahal — Wedding Hall Marketing Website",
+    repoUrl: "https://github.com/Gowthamp6233/sithara-mahal/tree/main",
+    overview: "Designed and built a full production marketing website for a wedding hall business in Dindigul. Built with React, Vite, and Tailwind CSS on the frontend and Express.js with MongoDB on the backend. Implemented scroll-triggered animations and a streamlined lead-capture form to convert visitors into inquiries.",
+    techStack: ["React", "Vite", "Tailwind CSS", "Express.js", "MongoDB"],
+    features: [
+      "Production marketing website",
+      "Scroll-triggered animations",
+      "Streamlined lead-capture form",
+      "Full-stack MERN implementation",
+      "Responsive design with Tailwind CSS"
+    ],
+    role: "Full-Stack Developer | Freelance Client Project"
+  },
+  5: {
+    title: "DMS Hospital — Website Redesign (Concept)",
+    overview: "Built a modern, clean hospital website demo modeled after industry-leading healthcare sites, as a direct pitch to a prospective client in Batlagundu. Focused on a professional white-and-blue design system suited for a healthcare audience.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Modern, clean healthcare design",
+      "Professional white-and-blue design system",
+      "Optimized for prospective client pitch"
+    ],
+    role: "Freelance Outreach Project"
+  },
   1: {
     title: "To-Do List Application",
     repoUrl: "https://github.com/GOWTHAM6233/To-Do-List",

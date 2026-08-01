@@ -28,7 +28,7 @@ function Projects() {
               <p className="project-description">{project.description}</p>
               <div className="project-details">
                 <span className="project-role">{project.role}</span>
-                <span className="project-duration">{project.duration}</span>
+                {project.duration && <span className="project-duration">{project.duration}</span>}
               </div>
               <div className="project-tech">
                 {project.techStack.map((tech, index) => (

@@ -7,7 +7,7 @@ function About() {
       <div className="card" style={{ marginBottom: "20px" }}>
         <h3>Who I Am</h3>
         <p>
-          I'm a passionate Software Developer with strong skills in Java, JavaScript, and SQL, currently training in the MERN stack (MongoDB, Express.js, React, Node.js). I'm passionate about building clean, efficient, and user-friendly applications that solve real-world problems. My focus is on backend development, scalable logic, and integrating real-time data using REST APIs.
+          Full Stack Developer with 7+ months of professional experience building production-ready applications using the MERN stack (MongoDB, Express.js, React, Node.js). I've delivered a live client project end-to-end — from architecture to deployment — and I specialize in backend development, REST API design, and scalable application logic. Currently open to full-time roles and freelance projects.
         </p>
       </div>
 
@@ -20,12 +20,8 @@ function About() {
           <p className="duration">2021 – 2025</p>
           <p className="gpa">Percentage: 76.90%</p>
         </div>
-      </div>
 
-      {/* Experience Section */}
-      <div className="card" style={{ marginBottom: "20px" }}>
-        <h3>Work Experience</h3>
-        <div className="experience-item">
+                <div className="experience-item" style={{ marginTop: "20px" }}>
           <h4>Trainee – MEAN Full Stack Developer</h4>
           <p className="company">Dr. Reddy's Foundation – GROW Tech Program</p>
           <p className="duration">June 2025 – Present</p>
@@ -38,13 +34,30 @@ function About() {
         </div>
       </div>
 
+      {/* Experience Section */}
+      <div className="card" style={{ marginBottom: "20px" }}>
+        <h3>Work Experience</h3>
+        <div className="experience-item">
+          <h4>Full Stack / Back End Developer (Intern)</h4>
+          <p className="company">BKEEP Inc. — Canada-based Company</p>
+          <p className="duration">November 2025 – May 2026</p>
+          <ul className="achievements">
+            <li>Built and maintained backend REST APIs using Node.js, Express.js, and MongoDB for a production SaaS platform</li>
+            <li>Handled bug fixes and ongoing maintenance on an existing production codebase</li>
+            <li>Worked across the full stack, integrating frontend components with backend services</li>
+            <li>Collaborated with a distributed, Canada-based team in a remote work environment</li>
+          </ul>
+        </div>
+
+      </div>
+
       {/* Skills Section */}
       <div className="card" style={{ marginBottom: "20px" }}>
         <h3>Technical Skills</h3>
         <div className="skills-grid">
           <div className="skill-category">
             <h4>Programming</h4>
-            <p>Java, JavaScript, TypeScript, React.js, Node.js</p>
+            <p>Java, JavaScript, TypeScript, React.js, Node.js, Angular</p>
           </div>
           <div className="skill-category">
             <h4>Web Technologies</h4>
